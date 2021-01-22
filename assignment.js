@@ -65,18 +65,18 @@ function hotelCost(daysOfStayingAtHotel) {
 /*
 ||----------->>>> function to print the name with highest character <<<<-----------||
 */
-function megaFriend(friends){
-    if(friends.length === 0){
+function megaFriend(friends) {
+    if (friends.length === 0) {
         var msg = 'Input at least one name.';
         return msg;
     }
-    else{
+    else {
         var longestName = friends[0];
-        for(var i= 0; i < friends.length; i++){
-        if(friends[i].length>longestName.length){
-            longestName = friends[i];
+        for (var i = 0; i < friends.length; i++) {
+            if (friends[i].length > longestName.length) {
+                longestName = friends[i];
+            }
         }
-    }
-    return longestName;
+        return longestName;
     }
 }
