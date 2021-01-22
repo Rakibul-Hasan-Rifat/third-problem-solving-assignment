@@ -79,5 +79,3 @@ function megaFriend(friends){
     return longestName;
     }
 }
-var names = ['rakibul hasan rifat saki', 'rifat', 'hasan', 'rakibul hasan', 'rakibul hasan rifat']
-console.log(megaFriend(names));
